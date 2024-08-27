@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: "Roboto Condensed",sans-serif;
+}
+
+header{
+   min-height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("https://zimsonwatches.com/cdn/shop/files/2000x886px_LE23.webp?v=1709722564&width=1070");
+background-repeat: no repeat;
+background-size: cover;
+}
+.container{
+width:85%;
+margin:auto;
+}
+
+nav {
+   height: 80px;
+}
+nav h1{
+font-family: "Edu VIC WA NT Beginner", cursive;
+float: left;
+line-height: 80px;
+font-size: 35px;
+font-size: inline;
+color:#F3FEB8;
+}
+nav ul{
+float: right;
+line-height: 80px;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+padding:0px 5px;
+}
+
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+border-radius: 5px;
+padding: 7px 8px;
+}
+
+nav ul li a:hover {
+    background: grey;
+transition: 0.5s ease;
+}
+nav ul li .active
+{
+background-color: grey;
+}
+.article{
+width: 50%;
+margin:auto;
+text-align: center;
+transform: translateY(25vh);
+}
+.article h1{
+font-size: 36px;
+font-family: "Playfair Display", serif;
+color:white;
+letter spacing: 1.5px;
+font-weight: 800;
+margin-bottom: 25px;
+}
+.article p
+{
+font size: 100px;
+color:grey;
+line-height: 1.5;
+letter-spacing: 1.5px;
+font weight: 800;
+margin-bottom: 50px;
+}
+ 
+
+
+.btn {
+    
+ 
+    
+   display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+
+    color: white;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: grey;
+transition: 0.5s ease;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+margin-bottom: 50px;
+}
+
+#about {
+    background: #f9f9f9;
+
+font size: 100px;
+color:black;
+line-height: 1.5;
+letter-spacing: 1.5px;
+font weight: 800;
+margin-bottom: 50px;
+
+}
+
+.showcase  {
+ 
+
+
+
+
+
+
+color: black;
+    display: flex;
+    justify-content: space-around;
+min-height: 100vh;
+background-color:#F1F1F1;
+background-repeat: no repeat;
+background-size: cover;    flex-wrap: wrap;
+
+
+    }
+
+.product {
+
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 20%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 70%;
+}
+
+#contact {
+    background: #e2e2e2;
+
+font size: 100px;
+color:black;
+line-height: 1.5;
+letter-spacing: 1.5px;
+font weight: 800;
+margin-bottom: 50px;
+
+}
+
+footer {
+    background: grey;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
